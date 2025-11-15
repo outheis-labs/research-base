@@ -21,6 +21,23 @@ The paper also argues that current tools realize the Semantic Web vision (self-d
 
 ---
 
+### [Who Owns Experience?](who-owns-experience/)
+
+*On the transfer of human knowledge into neural models*
+
+AI systems extract not just data but experience patterns — decision logics, heuristics, tacit knowledge. This extraction happens incidentally, through mere use of digital tools.
+
+Three contexts analyzed:
+- **Employees** whose experiential knowledge is preserved in enterprise systems
+- **Researchers** whose unpublished ideas flow into training corpora
+- **Children** whose learning processes are captured by educational platforms
+
+Central thesis: Experience is neither private property nor common good. It is conditionally shareable — under conditions of consent and reciprocity. For this conditional shareability, no legal framework exists.
+
+The paper argues that what is extracted is not data but capability — the cognitive signature that constitutes a person. When this is externalized and replicated, the person competes with a copy of themselves.
+
+---
+
 ## Status
 
 Working papers, not peer-reviewed. Discussion basis.
