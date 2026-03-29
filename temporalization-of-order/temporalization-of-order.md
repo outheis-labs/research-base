@@ -1,4 +1,4 @@
-# Temporal Order
+# The Temporalization of Order
 
 ## On the Structural Transformation of Information Architectures
 
