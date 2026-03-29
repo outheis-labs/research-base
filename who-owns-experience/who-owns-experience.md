@@ -4,7 +4,7 @@
 
 **Author:** Markus Schatzl (technology.culture@proton.me)
 
-**Status:** Working paper, March 2026
+**Status:** Working paper, Janaury 2026
 
 ---
 
