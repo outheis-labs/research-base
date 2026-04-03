@@ -78,11 +78,19 @@ The research agenda this implies is clear: we need not only better models but ri
 
 ## References
 
+Dupré, J., & Sherrat, T. (Eds.). (2024). *Wittgenstein and Artificial Intelligence*. Cambridge University Press.
+
 Fillmore, C. J. (1968). The Case for Case. In E. Bach & R. Harms (Eds.), *Universals in Linguistic Theory* (pp. 1-88). Holt, Rinehart & Winston.
 
 Fillmore, C. J., & Baker, C. (2010). A Frames Approach to Semantic Analysis. In B. Heine & H. Narrog (Eds.), *The Oxford Handbook of Linguistic Analysis*.
 
+Lu, Z. (2025). A Semantic Generalization of Shannon's Information Theory and Applications. *Entropy*, 27(5), 461.
+
 Pustejovsky, J., & Yocum, K. (2014). Image Annotation with ISO-Space: Distinguishing Content from Structure. *Proceedings of LREC 2014*.
+
+Tishby, N., & Zaslavsky, N. (2015). Deep Learning and the Information Bottleneck Principle. *IEEE Information Theory Workshop (ITW)*, 1-5.
+
+Tishby, N., Pereira, F. C., & Bialek, W. (1999). The Information Bottleneck Method. *Proceedings of the 37th Annual Allerton Conference on Communication, Control and Computing*, 368-377.
 
 Wand, Y., & Weber, R. (1993). On the Ontological Expressiveness of Information Systems Analysis and Design Grammars. *Information Systems Journal*, 3(4), 217-237.
 
