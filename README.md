@@ -1,4 +1,3 @@
-```markdown
 # research-base
 
 Working papers and research sketches.
@@ -82,4 +81,3 @@ Working papers, not peer-reviewed. Discussion basis.
 ## License
 
 CC BY 4.0
-```
