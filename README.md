@@ -50,7 +50,7 @@ The degree of compression determines reach and loss:
 * **Maximum compression** (formal labels, category codes) yields maximum processability but minimal expressiveness
 * **Lower compression** (natural language) preserves reasoning, uncertainty, temporal structure — what formal grammars cannot express
 
-Central thesis: Classical ML architectures forced maximum compression because they could not process sentences. Large language models dissolve this constraint. For the first time, compression ratio becomes a design parameter rather than a technical given.
+Central thesis: Digital systems — from gates to interfaces — are built on Boolean logic. Logically unambiguous, minimal data is what discrete architectures can process efficiently. This is not a limitation of ML but the constitutional grammar of computation itself. LLMs do not escape this grammar; they shift the boundary of what counts as structured input. Compression ratio becomes a design parameter — but the imperative toward compression remains.
 
 The paper asks what vanishes under maximum compression — not merely quantitative information, but entire categories of statement. The model learns from a shadow cast by knowledge it never receives.
 
