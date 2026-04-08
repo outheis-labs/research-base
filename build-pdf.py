@@ -104,6 +104,18 @@ def build_pdf(source: Path, output: Path) -> None:
         print("Error: fpdf2 is not installed. Run: pip3 install fpdf2", file=sys.stderr)
         sys.exit(1)
 
+    # Subclass to inject page numbers via footer() — called automatically per page
+    class PDF(FPDF):
+        _sans: str = "Helvetica"
+        _text_w: float = 0.0
+
+        def footer(self):
+            self.set_y(-18)
+            self.set_font(self._sans, size=9)
+            self.set_text_color(140, 140, 140)
+            self.cell(self._text_w, 5, str(self.page_no()), align="C")
+            self.set_text_color(0, 0, 0)
+
     try:
         import markdown  # noqa: F401 — just check it's available
     except ImportError:
@@ -121,7 +133,7 @@ def build_pdf(source: Path, output: Path) -> None:
     GEORGIA_BI    = FONT_DIR / "Georgia Bold Italic.ttf"
     USE_GEORGIA   = GEORGIA.exists()
 
-    pdf = FPDF()
+    pdf = PDF()
     pdf.set_margins(left=28, top=30, right=28)
     pdf.set_auto_page_break(auto=True, margin=28)
 
@@ -138,6 +150,7 @@ def build_pdf(source: Path, output: Path) -> None:
     SANS  = "Helvetica"
 
     TEXT_W = pdf.w - pdf.l_margin - pdf.r_margin
+    pdf._text_w = TEXT_W  # used by footer()
 
     def write_rich(text: str, line_height: float = 6.0, align: str = "J") -> None:
         """Write text with inline bold (**) and italic (*) support."""
@@ -214,15 +227,6 @@ def build_pdf(source: Path, output: Path) -> None:
             pdf.set_font(SERIF, size=11)
             pdf.multi_cell(TEXT_W, 6, clean, align="J")
             spacer(2)
-
-    # Page numbers
-    for page_num in range(1, pdf.page + 1):
-        pdf.page = page_num
-        pdf.set_y(-20)
-        pdf.set_font(SANS, size=9)
-        pdf.set_text_color(120, 120, 120)
-        pdf.cell(TEXT_W, 5, str(page_num), align="C")
-    pdf.set_text_color(0, 0, 0)
 
     pdf.output(str(output))
     print(f"Done: {output}", file=sys.stderr)
