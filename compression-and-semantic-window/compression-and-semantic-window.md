@@ -110,4 +110,4 @@ Wand, Y., & Weber, R. (1993). On the Ontological Expressiveness of Information S
 
 ---
 
-*© 2026 Markus Schatzl. All rights reserved.*
+© 2026 Markus Schatzl. Licensed under CC BY 4.0.

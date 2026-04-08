@@ -4,7 +4,7 @@
 
 **Author:** Markus Schatzl (technology.culture@proton.me)
 
-**Status:** Working paper, November 2025
+**Status:** April 2026 — Preprint
 
 ---
 
@@ -182,7 +182,7 @@ The tool generation described here achieves functionally similar effects to RDF�
 
 The crucial difference: the current architecture is based on plaintext and human-readable conventions rather than formal languages. A Markdown file with YAML frontmatter is readable by both humans and machines—without special tools, without prior knowledge of formal ontologies.
 
-One could formulate: the current tool generation realizes the Semantic Web vision using the means of everyday human practice rather than formal knowledge representation. Or, from another perspective: it realizes the Semantic Web vision using the means of Unix philosophy—plaintext, small tools, composability.
+One could formulate: the current tool generation realizes the Semantic Web vision using the means of everyday human practice rather than formal knowledge representation. Or, from another perspective: it realizes the Semantic Web vision using the means of Unix philosophy—plaintext, small tools, composability (Raymond, 2003).
 
 ### 4.4 Consequences
 
@@ -234,7 +234,7 @@ The relevant question is therefore not which system is free of degradation (neit
 
 ### 6.1 The Legitimate Objection
 
-Information science has studied the concepts described here for decades. Faceted classification goes back to S.R. Ranganathan in the 1930s. Folksonomy research in the 2000s empirically analyzed tag systems. The Semantic Web formulated self-describing data as an architectural principle.
+Information science has studied the concepts described here for decades. Faceted classification goes back to S.R. Ranganathan in the 1930s (Ranganathan, 1967). Folksonomy research in the 2000s empirically analyzed tag systems (Shirky, 2005; Golder & Huberman, 2006). The Semantic Web formulated self-describing data as an architectural principle (Berners-Lee et al., 2001).
 
 What, then, could be new about the current development?
 
@@ -246,7 +246,7 @@ Historically, storing and searching were separate operations with different opti
 
 The radical cheapening of search—through full-text indexing, semantic search, and most recently through Large Language Models—fundamentally changes this economy. When search is nearly free, organization loses its instrumental justification.
 
-**Thesis:** We are witnessing not the replacement of one organizational form by a better one, but the *end of organization as necessity*. Tags are then not an alternative to hierarchies but a description language for objects that no longer need to be "organized."
+**Thesis:** We are witnessing not the replacement of one organizational form by a better one, but the *end of organization as necessity*. Tags are then not an alternative to hierarchies but a description language for objects that no longer need to be "organized." Shirky (2005) anticipates this argument when he observes that ontologies become overrated precisely as search becomes cheap—though he does not draw the full structural conclusion.
 
 Information science has hardly systematically considered this possibility because it proceeds from the premise that organization is necessary.
 
@@ -264,7 +264,7 @@ The emergent sequence is:
 2. Query (by arbitrary criteria)
 3. Generate structure (as a result of the query)
 
-**Thesis:** Structure changes from something given to something computed. It does not exist as a persistent property of the data pool but arises at the moment of the query and passes with it.
+**Thesis:** Structure changes from something given to something computed. It does not exist as a persistent property of the data pool but arises at the moment of the query and passes with it. This constitutes, we argue, a genuinely novel contribution: while the process-philosophical distinction between substance and event (Whitehead, 1929) provides a conceptual analogue, its systematic application to information architecture has not, to our knowledge, been previously developed.
 
 This temporalization of structure has consequences that are perhaps not fully explicated: What does "order" mean in a system where order does not exist but happens?
 
@@ -274,7 +274,7 @@ Hierarchical systems enforce uniqueness: an object has one location. Redundancy 
 
 In tag-based systems, multiple membership is constitutive. Each additional tag is a potential access path. Redundancy becomes a feature: it stores *optionality*—possibilities of access not used today but potentially relevant tomorrow.
 
-**Thesis:** The information-theoretic evaluation of redundancy changes in self-describing systems. Redundancy is not noise but stored potential.
+**Thesis:** The information-theoretic evaluation of redundancy changes in self-describing systems. Redundancy is not noise but stored potential. We propose this as a novel contribution: Shannon's classical information theory treats redundancy as inefficiency to be minimized; in self-describing systems, we argue, it performs an orthogonal function—preserving access optionality across unknown future queries.
 
 Questions that follow: Is there a formal relationship between the number of tags per object and its findability? How does the entropy of a tag-based system relate to that of a hierarchical one?
 
@@ -318,7 +318,7 @@ In prospective architectures, order is something *becoming*—a process that tak
 
 ### 8.1 The Historical Dilemma
 
-Folksonomy research identified a dilemma:
+Folksonomy research identified a dilemma (Shirky, 2005; Golder & Huberman, 2006):
 
 **Top-down (Taxonomy):** Controlled vocabularies ensure consistency but require considerable governance effort and scale poorly with the number of contributors and the dynamics of the knowledge domain.
 
@@ -392,7 +392,7 @@ This would mean:
 
 ### 9.4 FAIR Principles and Self-Description
 
-The FAIR Principles (Findable, Accessible, Interoperable, Reusable) fundamentally require self-describing data. An object should be interpretable without knowledge of the overarching system.
+The FAIR Principles (Findable, Accessible, Interoperable, Reusable) fundamentally require self-describing data (Wilkinson et al., 2016). An object should be interpretable without knowledge of the overarching system.
 
 An object whose meaning derives from its position in a collection hierarchy is less FAIR than one that explicitly carries its categorization as metadata.
 
@@ -438,13 +438,13 @@ The developed theses connect to several research traditions:
 
 ### 11.1 Cognitive Science
 
-Prototype theory (Rosch) shows that human categorization does not work through necessary and sufficient conditions but through family resemblances and prototypical examples. Tag-based systems map this structure better than hierarchical taxonomies.
+Prototype theory (Rosch, 1975; Lakoff, 1987) shows that human categorization does not work through necessary and sufficient conditions but through family resemblances and prototypical examples. Tag-based systems map this structure better than hierarchical taxonomies.
 
 Spreading activation models of memory describe recall as associative activation in a network. The network structure created by bidirectional links corresponds to this modeling.
 
 ### 11.2 Process Philosophy
 
-The distinction between structure as given and structure as becoming corresponds to the process-philosophical distinction between substance and event (Whitehead). Information would then be primarily not a stock but a process.
+The distinction between structure as given and structure as becoming corresponds to the process-philosophical distinction between substance and event (Whitehead, 1929). Information would then be primarily not a stock but a process.
 
 ### 11.3 Information Theory
 
@@ -452,7 +452,7 @@ The revaluation of redundancy—not as noise but as optionality—possibly requi
 
 ### 11.4 Library and Information Science
 
-The faceted classification tradition (Ranganathan) laid the foundations for non-hierarchical ordering. The development described here can be understood as a technical realization of this tradition under changed technological conditions.
+The faceted classification tradition (Ranganathan, 1967) laid the foundations for non-hierarchical ordering. The development described here can be understood as a technical realization of this tradition under changed technological conditions.
 
 ---
 
@@ -472,36 +472,34 @@ The theoretical implications concern the understanding of what "order" means in 
 
 ## References
 
-*(Selected references for further reading)*
+Berners-Lee, T., Hendler, J., & Lassila, O. (2001). The Semantic Web. *Scientific American,* 284(5), 34–43.
 
-**Faceted Classification:**
-- Ranganathan, S.R. (1967): Prolegomena to Library Classification. Asia Publishing House.
+Golder, S.A., & Huberman, B.A. (2006). Usage patterns of collaborative tagging systems. *Journal of Information Science,* 32(2), 198–208.
 
-**Folksonomy Research:**
-- Shirky, C. (2005): Ontology is Overrated: Categories, Links, and Tags.
-- Golder, S.A. & Huberman, B.A. (2006): Usage Patterns of Collaborative Tagging Systems. Journal of Information Science.
+Lakoff, G. (1987). *Women, Fire, and Dangerous Things: What Categories Reveal about the Mind.* University of Chicago Press.
 
-**Semantic Web:**
-- Berners-Lee, T., Hendler, J. & Lassila, O. (2001): The Semantic Web. Scientific American.
-- W3C (2014): RDF 1.1 Primer. https://www.w3.org/TR/rdf11-primer/
-- W3C (2012): OWL 2 Web Ontology Language Primer. https://www.w3.org/TR/owl2-primer/
+Matuschak, A. (n.d.). Evergreen Notes. Retrieved from https://notes.andymatuschak.org/
 
-**Personal Knowledge Management:**
-- Matuschak, A.: Evergreen Notes. https://notes.andymatuschak.org/
+Morville, P., & Rosenfeld, L. (2006). *Information Architecture for the World Wide Web* (3rd ed.). O'Reilly.
 
-**Cognitive Science:**
-- Rosch, E. (1975): Cognitive Representations of Semantic Categories. Journal of Experimental Psychology.
-- Lakoff, G. (1987): Women, Fire, and Dangerous Things. University of Chicago Press.
+Ranganathan, S.R. (1967). *Prolegomena to Library Classification* (3rd ed.). Asia Publishing House.
 
-**Information Architecture:**
-- Morville, P. & Rosenfeld, L. (2006): Information Architecture for the World Wide Web. O'Reilly.
+Raymond, E.S. (2003). *The Art of Unix Programming.* Addison-Wesley.
 
-**FAIR Principles:**
-- Wilkinson, M.D. et al. (2016): The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data.
+Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology: General,* 104(3), 192–233.
 
-**Unix Philosophy:**
-- Raymond, E.S. (2003): The Art of Unix Programming. Addison-Wesley.
+Shirky, C. (2005). Ontology is overrated: Categories, links, and tags. *Clay Shirky's Writings About the Internet.* Retrieved from https://www.shirky.com/writings/ontology_overrated.html
+
+W3C (2012). *OWL 2 Web Ontology Language Primer* (2nd ed.). https://www.w3.org/TR/owl2-primer/
+
+W3C (2014). *RDF 1.1 Primer.* https://www.w3.org/TR/rdf11-primer/
+
+Whitehead, A.N. (1929). *Process and Reality: An Essay in Cosmology.* Macmillan.
+
+Wilkinson, M.D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data,* 3, 160018.
 
 ---
+
+© 2026 Markus Schatzl. Licensed under CC BY 4.0.
 
 *This paper is conceived as a discussion basis and does not claim completeness of argumentation or literature base.*

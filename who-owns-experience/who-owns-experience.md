@@ -4,13 +4,13 @@
 
 **Author:** Markus Schatzl (technology.culture@proton.me)
 
-**Status:** Working paper, Janaury 2026
+**Status:** April 2026 — Preprint
 
 ---
 
 ## Abstract
 
-AI systems extract not just data but experience patterns—decision logics, heuristics, tacit knowledge. This extraction happens incidentally, through the mere use of digital tools. The question of who owns this experience—and under what conditions it may be transferred—remains unanswered.
+AI systems extract not just data but experience patterns—decision logics, heuristics, tacit knowledge (Polanyi, 1966). This extraction happens incidentally, through the mere use of digital tools. The question of who owns this experience—and under what conditions it may be transferred—remains unanswered.
 
 This paper analyzes the problem in three contexts: employees whose experiential knowledge is preserved in enterprise systems; researchers whose unpublished ideas flow into training corpora; children whose learning processes are captured by educational platforms. In all three cases, the person loses control over something constitutive—not over a product, but over the capability that enables products.
 
@@ -22,7 +22,7 @@ The paper proceeds from the assumption that individual control over experience i
 
 ## 1. Starting Point
 
-When an engineer uses an AI system through a corporate account over months—whether Microsoft Copilot, ChatGPT Enterprise, or an industry-specific system—far more emerges than a collection of work products. A digital profile of their decision patterns emerges: how they analyze problems, which factors they prioritize, which solution paths they prefer. Decades of industry knowledge, process understanding, and error wisdom become contextualized and preserved in the system.
+When an engineer uses an AI system through a corporate account over months—whether Microsoft Copilot, ChatGPT Enterprise, or an industry-specific system—far more emerges than a collection of work products. A digital profile of their decision patterns emerges: how they analyze problems, which factors they prioritize, which solution paths they prefer. Decades of industry knowledge, process understanding, and error wisdom become contextualized and preserved in the system (Polanyi, 1966).
 
 When a researcher thinks through an immature hypothesis with an LLM, plays through a methodological innovation, or explores a new theoretical approach, this exploratory thinking flows into platforms whose terms of service provide for use in model training—without timestamp, without attribution, without control.
 
@@ -36,7 +36,7 @@ What emerges in all three cases is a functional representation of human experien
 
 A distinction is fundamental: Data is discrete and attributable. A name, a birth date, an IP address—these are data. They can be collected, stored, deleted. The GDPR regulates them.
 
-Experience is something else. It is relational: it emerges in interaction with other people, with materials, with situations. Without the contribution of others, experience is not possible. At the same time, it depends substantially—if not almost entirely—on individual perception and the capacity to connect impressions, which is clearly individual.
+Experience is something else. It is relational: it emerges in interaction with other people, with materials, with situations. Without the contribution of others, experience is not possible. At the same time, it depends substantially—if not almost entirely—on individual perception and the capacity to connect impressions, which is clearly individual (Polanyi, 1966).
 
 Experience is thus neither purely individually nor purely socially constituted. It emerges in the in-between space—and precisely for this reason it is not captured by existing categories.
 
@@ -52,7 +52,7 @@ AI-supported work environments blur the boundary. The interaction itself becomes
 
 What should leave with the employee stays in the system. After termination of employment, the experience profile remains with the employer. The departed employee has effectively no way to prevent the continued use of their knowledge.
 
-A second layer compounds this: The operators of AI platforms reserve in their terms of service the right to use user inputs for further development of their models. Thus the specialized knowledge of individual experts flows not only into the enterprise system but potentially also into the training foundation of global AI models—without knowledge or consent of the knowledge bearers.
+A second layer compounds this: The operators of AI platforms reserve in their terms of service the right to use user inputs for further development of their models. Thus the specialized knowledge of individual experts flows not only into the enterprise system but potentially also into the training foundation of global AI models—without knowledge or consent of the knowledge bearers (Zuboff, 2019).
 
 ### 3.2 Researcher
 
@@ -106,7 +106,7 @@ The structure is the same in all three cases: Experience as substrate is transfe
 
 Experience is neither private property nor common good. It is conditionally shareable—under conditions of consent and reciprocity.
 
-The analogy to open source is instructive: Free software is not ownerless. It is consciously released under conditions—GPL, MIT, Creative Commons. The author retains rights but grants use under defined rules. This works because there is a legal framework (copyright) on which licenses can build.
+The analogy to open source is instructive: Free software is not ownerless. It is consciously released under conditions—GPL, MIT, Creative Commons. The author retains rights but grants use under defined rules. This works because there is a legal framework (copyright) on which licenses can build (Benkler, 2006).
 
 For experiential knowledge, this framework is missing. There is no experience law on which an experience license could build. Therefore release is not treated as a conscious act but as default.
 
@@ -118,15 +118,15 @@ Voluntary sharing—in the sense of open source, public domain, charitable contr
 
 The preceding analysis opens questions that cannot be answered in purely technical or purely legal terms:
 
-1. What legal status would accrue to experiential knowledge that is neither fully individually nor fully socially constituted? Are there precedents in other legal domains—for instance in dealing with traditional knowledge of indigenous communities?
+1. What legal status would accrue to experiential knowledge that is neither fully individually nor fully socially constituted? Are there precedents in other legal domains—for instance in dealing with traditional knowledge of indigenous communities (WIPO, 2017)?
 
 2. What conditions would need to be fulfilled for the transfer of experience into neural models to count as consensual? Is a cookie banner enough? Is a terms of service clause enough? Or are more specific forms of disclosure and consent required?
 
-3. How could a right of revocation be conceived that accounts for the accumulation of experience data over time? The GDPR knows a right to deletion—but what does deletion mean for a trained model?
+3. How could a right of revocation be conceived that accounts for the accumulation of experience data over time? The GDPR knows a right to deletion—but what does deletion mean for a trained model (Mayer-Schönberger, 2009)?
 
 4. What institutional structures would be needed to make conditional shareability enforceable? Are trustees needed, registries, new forms of collective rights administration?
 
-5. How does the argument developed here relate to existing concepts such as the right to informational self-determination or the right to one's own image? Is there a right to one's own thought pattern?
+5. How does the argument developed here relate to existing concepts such as the right to informational self-determination or the right to one's own image (Floridi, 2014)? Is there a right to one's own thought pattern?
 
 ---
 
@@ -154,7 +154,7 @@ In sum, a shift occurs: experiential knowledge that was previously distributed a
 
 This concentration changes power relations: Whoever aggregates the experience of many can potentially act without them. The question is what role the many then still play—as bearers, as sources, or as something in between.
 
-This is not dystopian speculation but the extrapolation of an already visible dynamic. The question is whether and how it can be politically shaped—and whether such shaping is even considered necessary.
+This is not dystopian speculation but the extrapolation of an already visible dynamic. The question is whether and how it can be politically shaped—and whether such shaping is even considered necessary. The growing body of AI ethics frameworks documents the breadth of this discourse without resolving the question of experiential ownership (Jobin et al., 2019).
 
 ---
 
@@ -162,7 +162,7 @@ This is not dystopian speculation but the extrapolation of an already visible dy
 
 The considerations developed here focus on AI-supported environments. They are, however, structurally applicable to other forms of digital interaction.
 
-The extraction of experience patterns has not happened only since the emergence of large language models. Every captcha service that uses human classification performance for model training; every analytics platform that aggregates behavioral patterns; every educational platform that stores learning trajectories—they all operate according to the same structure: experience is extracted without the affected person having control.
+The extraction of experience patterns has not happened only since the emergence of large language models. Every captcha service that uses human classification performance for model training; every analytics platform that aggregates behavioral patterns; every educational platform that stores learning trajectories—they all operate according to the same structure: experience is extracted without the affected person having control (Zuboff, 2019).
 
 The difference from LLM interactions is gradual, not categorical. But the dialogic nature of LLM interaction makes the extraction visible—and thus politicizable.
 
@@ -178,12 +178,24 @@ This paper understands itself as a discussion basis. It formulates a problem tha
 
 ---
 
-## Contact
+## References
 
-Markus Schatzl  
-ergonoi  
-technology.culture@proton.me
+Benkler, Y. (2006). *The Wealth of Networks: How Social Production Transforms Markets and Freedom.* Yale University Press.
+
+Floridi, L. (2014). *The Fourth Revolution: How the Infosphere is Reshaping Human Reality.* Oxford University Press.
+
+Jobin, A., Ienca, M., & Vayena, E. (2019). The global landscape of AI ethics guidelines. *Nature Machine Intelligence,* 1(9), 389–399.
+
+Mayer-Schönberger, V. (2009). *Delete: The Virtue of Forgetting in the Digital Age.* Princeton University Press.
+
+Polanyi, M. (1966). *The Tacit Dimension.* Doubleday.
+
+WIPO (2017). *Traditional Knowledge and Intellectual Property: Background Brief.* World Intellectual Property Organization.
+
+Zuboff, S. (2019). *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power.* PublicAffairs.
 
 ---
+
+© 2026 Markus Schatzl. Licensed under CC BY 4.0.
 
 *This paper is conceived as a discussion basis and does not claim completeness of argumentation or literature base.*
