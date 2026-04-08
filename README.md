@@ -4,6 +4,80 @@ Working papers and research sketches.
 
 ---
 
+## PDF Build
+
+Convert any Markdown paper to a typeset PDF with `build-pdf.py`.
+
+### Requirements
+
+- Python 3.9+
+- [fpdf2](https://pyfpdf.github.io/fpdf2/) — pure Python PDF generation (no system libs)
+- [markdown](https://python-markdown.github.io/) — Markdown parser
+
+```bash
+pip3 install fpdf2 markdown
+```
+
+No system libraries required. On macOS, Georgia fonts ship with the OS and are
+used automatically for typesetting. On other systems the script falls back to
+the built-in Times New Roman core font.
+
+### Usage
+
+```bash
+# Output PDF alongside the source file
+python3 build-pdf.py why-labels-need-language/why-labels-need-language.md
+
+# Explicit output path
+python3 build-pdf.py path/to/paper.md -o ~/Desktop/paper.pdf
+```
+
+The script reads the `.md` file and writes a `.pdf` with the same base name
+in the same directory (unless `-o` is given).
+
+### Paper format
+
+Papers should follow standard Markdown. The expected structure:
+
+```markdown
+# Title
+
+**Subtitle**
+
+*Genre — e.g. Position Paper*
+
+---
+
+**Author Name**
+Affiliation
+email@example.com
+
+*Month Year — Preprint*
+
+---
+
+## Abstract
+
+...
+
+## 1. Section
+
+...
+
+## References
+
+...
+```
+
+The script handles title centering, author block, abstract indentation, and
+justified body text automatically via CSS. Output is A4, EB Garamond 11.5pt,
+30mm margins, with page numbers — suitable for submission or distribution.
+
+Fonts load from Google Fonts and require an internet connection on first build.
+For offline use, download the fonts and update the `@import` line in `build-pdf.py`.
+
+---
+
 ## Contents
 
 ### [Temporalization of Order](https://github.com/outheis-labs/research-base/blob/main/temporalization-of-order/temporalization-of-order.md)
