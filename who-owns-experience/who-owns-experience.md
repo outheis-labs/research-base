@@ -148,7 +148,7 @@ When the same knowledge becomes available in a model, scarcity disappears. The p
 
 This is not science fiction. It is the explicit goal of many AI implementation projects: to preserve the knowledge of experienced employees before they retire. The employees themselves articulate the consequence precisely: "Once you've trained the system, you won't need us anymore."
 
-### 8.3 Implications for the Commonwealth
+### 8.3 Implications for Society
 
 In sum, a shift occurs: experiential knowledge that was previously distributed among many individuals accumulates with few institutions—the operators of platforms, the holders of models.
 
