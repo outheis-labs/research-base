@@ -197,5 +197,3 @@ Zuboff, S. (2019). *The Age of Surveillance Capitalism: The Fight for a Human Fu
 ---
 
 © 2026 Markus Schatzl. Licensed under CC BY 4.0.
-
-*This paper is conceived as a discussion basis and does not claim completeness of argumentation or literature base.*
