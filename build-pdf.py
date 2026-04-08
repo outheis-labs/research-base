@@ -110,10 +110,11 @@ def build_pdf(source: Path, output: Path) -> None:
         _text_w: float = 0.0
 
         def footer(self):
-            self.set_y(-18)
+            self.set_y(self.h - 15)   # 15 mm from bottom (absolute, avoids sign ambiguity)
+            self.set_x(self.l_margin)
             self.set_font(self._sans, size=9)
             self.set_text_color(140, 140, 140)
-            self.cell(self._text_w, 5, str(self.page_no()), align="C")
+            self.cell(self.epw, 5, str(self.page_no()), align="C")
             self.set_text_color(0, 0, 0)
 
     try:
