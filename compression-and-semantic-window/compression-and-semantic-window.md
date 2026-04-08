@@ -54,7 +54,21 @@ The second is not merely longer. It preserves what the first discards: the pheno
 
 Yet it remains compression. No description escapes this. The question is not whether to compress but how much—and that question, until now, was answered by technical constraint rather than epistemological judgment.
 
-## 5. The Constraint Dissolves
+## 5. Meaning as Product of Controlled Compression
+
+The preceding analysis suggests a hypothesis: meaning is not intrinsic to signals, nor is it simply preserved or destroyed by compression. It arises in the act of controlled compression itself.
+
+Maximum compression—the label—creates processability but not meaning in the full sense. The category *bearing damage* points toward meaning without instantiating it. It is an address without a content. The meaning remains in the annotator's mind, inaccessible to the system.
+
+Minimum compression—unmediated experience—is equally unavailable to a system: too singular to be relational, too dense to be traversed. Without selection, nothing can be connected, compared, or integrated.
+
+Meaning requires the in-between: sufficient compression to enable structure, relation, and inference; sufficient preservation to retain the phenomenal basis of the judgment. Neither pole generates meaning. Only controlled selection—purposeful reduction that retains what matters for the intended use—does.
+
+This implies that the loss under maximum compression is not merely quantitative but constitutive: the categories that allow a system to understand rather than merely classify cannot survive it. And it implies that the gain of natural language annotation is not merely more data, but a qualitatively different signal—one in which the compression ratio has been calibrated to the purpose rather than dictated by format.
+
+The Information Bottleneck principle (Tishby et al., 1999) captures a related intuition: optimal representations are those that compress maximally while preserving what is relevant for a target variable. But the claim here is stronger. It is not only that compression can be optimized for prediction—it is that the compression act itself, when controlled, is what generates the relational structure we recognize as meaning. Prediction is one instance of this; understanding is another.
+
+## 6. The Constraint Dissolves
 
 Classical ML architectures could not read sentences. They required coordinates, codes, class indices—forcing maximum compression regardless of what was lost. The grammar of the annotation format was dictated by the grammar of the model's input layer.
 
@@ -62,7 +76,9 @@ Large language models dissolve this constraint. They process natural language na
 
 This is not a minor technical shift. It relocates a decision that was formerly invisible—buried in format specifications—into the space of explicit epistemological choice. How much context should survive the annotation? How much interpretation? How much uncertainty? These questions now require answers.
 
-## 6. Implications
+If meaning is indeed a product of controlled compression, then this shift is not merely technical convenience—it is the first time systems can receive signals that carry meaning, rather than pointers to it.
+
+## 7. Implications
 
 **For the model:** Under maximum compression, training data consists of addresses—pointers to meaning that exists only in the annotator's mind or in documentation the model never sees. Under lower compression, portions of that meaning enter the training signal directly. The model learns not just that X belongs to class Y, but why.
 
@@ -70,7 +86,7 @@ This is not a minor technical shift. It relocates a decision that was formerly i
 
 **For information theory:** Shannon's framework measures the entropy of symbols, explicitly bracketing semantics. But if description is constitutively compression, then every annotation carries semantic entropy that Shannon's formalism cannot capture. The question whether meaning has measurable information content remains open—and becomes urgent.
 
-## 7. Open Questions
+## 8. Open Questions
 
 If compression ratio is now a parameter, what determines its appropriate value? Purpose, presumably—but purpose is typically left implicit in ML pipelines. Making compression ratio explicit forces the question: what is this model supposed to understand?
 
