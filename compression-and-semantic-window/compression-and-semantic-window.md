@@ -14,6 +14,16 @@ technology.culture@proton.me
 
 ---
 
+## Abstract
+
+Annotation—the act of associating signals with descriptors—is constitutively an act of compression. Every label discards information; every tag selects while occluding. The degree of compression is not a neutral technical parameter: it determines what meaning can pass from annotator to model. Under maximum compression—formal category codes, class indices, coordinate grids—only addresses are transmitted; the reasoning, uncertainty, and phenomenal basis that generated the label remain in the annotator's mind, invisible to the system.
+
+This paper argues that meaning is not intrinsic to signals, nor simply preserved or destroyed by compression, but arises in the act of controlled compression itself: sufficient reduction to enable structure and inference, sufficient preservation to retain the phenomenal basis of judgment. The practical consequence of this was historically masked by architectural constraint: classical machine learning required maximum compression because models could not read natural language. Large language models dissolve this constraint. For the first time, compression ratio becomes an explicit design parameter rather than a format-dictated given.
+
+We examine the implications for training data, for the role of the annotator, and for information theory—where Shannon's entropy framework explicitly brackets semantics, leaving semantic compression unmeasured. If meaning is a product of controlled reduction, then the shift toward lower compression represents not merely a technical convenience but the first opportunity for systems to receive signals that carry meaning rather than pointers to it.
+
+---
+
 ## Starting Point
 
 Description requires distance. A description that captures all non-redundant properties of an entity would be its identity—no longer a description, but duplication. The distance from identity, achieved through reduction, is not a disadvantage but constitutive: only this distance enables context, relation, structure.
