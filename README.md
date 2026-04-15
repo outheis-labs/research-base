@@ -70,11 +70,12 @@ email@example.com
 ```
 
 The script handles title centering, author block, abstract indentation, and
-justified body text automatically via CSS. Output is A4, EB Garamond 11.5pt,
-30mm margins, with page numbers — suitable for submission or distribution.
+justified body text automatically. Output is A4, Georgia 11pt, 28mm margins,
+with page numbers — suitable for submission or distribution.
 
-Fonts load from Google Fonts and require an internet connection on first build.
-For offline use, download the fonts and update the `@import` line in `build-pdf.py`.
+On macOS, Georgia ships with the OS and is used automatically. On other systems
+the script falls back to the built-in Times New Roman core font. No internet
+connection required.
 
 ---
 
@@ -117,16 +118,12 @@ The paper argues that what is extracted is not data but capability — the cogni
 
 *Implications of informational distance*
 
-Description requires distance from its object. A description capturing all non-redundant properties would be duplication, not description. This distance — achieved through reduction — is constitutive: only compression enables context, relation, structure.
+Annotation is constitutively an act of compression. Every label discards information; every tag selects while occluding. The degree of compression is not a neutral technical parameter — it determines what meaning can pass from annotator to model.
 
-The degree of compression determines reach and loss:
+* **Maximum compression** (formal labels, category codes) transmits addresses, not meaning — reasoning, uncertainty, and context remain in the annotator's mind, invisible to the system
+* **Lower compression** (natural language) retains the phenomenal basis of judgment: not just the category, but the reasoning that generated it
 
-* **Maximum compression** (formal labels, category codes) yields maximum processability but minimal expressiveness
-* **Lower compression** (natural language) preserves reasoning, uncertainty, temporal structure — what formal grammars cannot express
-
-Central thesis: Digital systems — from gates to interfaces — are built on Boolean logic. Logically unambiguous, minimal data is what discrete architectures can process efficiently. This is not a limitation of ML but the constitutional grammar of computation itself. LLMs do not escape this grammar; they shift the boundary of what counts as structured input. Compression ratio becomes a design parameter — but the imperative toward compression remains.
-
-The paper asks what vanishes under maximum compression — not merely quantitative information, but entire categories of statement. The model learns from a shadow cast by knowledge it never receives.
+Central thesis: Meaning is not intrinsic to signals, nor simply preserved or destroyed by compression — it arises in the act of controlled compression itself. LLMs dissolve the architectural constraint that historically forced maximum compression: for the first time, compression ratio becomes an explicit design parameter rather than a format-dictated given. The shift toward natural language annotation is not a technical convenience but the first opportunity for systems to receive signals that carry meaning rather than pointers to it.
 
 ---
 
