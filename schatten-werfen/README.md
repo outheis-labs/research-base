@@ -8,7 +8,7 @@ Markus Schatzl · Preprint, Oktober 2026
  
 *Schatten werfen* entwickelt ein einfaches Prinzip und verfolgt es durch mehrere Felder. Was eine bestimmte Gestalt annimmt, geht aus etwas Reicherem hervor, das in ihr nicht enthalten ist. Der Weg dorthin lässt sich nicht umkehren, und neben jeder Gestalt verbleibt etwas. Die Arbeit prüft diesen Gedanken an der Erfahrung des Handwerks, an lernenden Maschinen, an der Zeit, an der Frage, wem Erfahrung gehört, und an der Kontemplation.
  
-Das Repository enthält den Text als PDF. Es handelt sich um ein Preprint: Der Text wird derzeit von Testlesern gelesen und kann sich noch ändern.
+Das Repository enthält den Text als PDF. Es handelt sich um ein Preprint: Der Text wird derzeit lektoriert und kann sich noch ändern.
  
 ### Warum nur auf Deutsch
  
